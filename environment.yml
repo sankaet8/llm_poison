@@ -1,0 +1,17 @@
+name: overthinking-llm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - transformers>=4.36
+  - datasets>=2.14
+  - accelerate>=0.21
+  - huggingface_hub>=0.16
+  - sentencepiece>=0.1.99
+  - tqdm
+  - scipy>=1.10
+  - pip
+  - pip:
+      - bitsandbytes  # Optional, for 8-bit loading
