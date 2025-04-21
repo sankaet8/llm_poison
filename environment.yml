@@ -1,4 +1,4 @@
-name: overthinking-llm
+name: llm-think
 channels:
   - conda-forge
   - defaults
